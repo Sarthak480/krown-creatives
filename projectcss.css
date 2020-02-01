@@ -1,0 +1,96 @@
+
+body { font-family: 'Poppins', sans-serif; font-weight: 400; background: url(https://www.tolmatol.com/uploads-images/bootstrap-snippets-login-form/bg.jpg); background-size: cover; height: 100vh; width: 100%; background-position: center; background-repeat: no-repeat; } 
+        .bg:before { position: absolute; content: ''; width: 100%; background: rgba(103, 58, 183, 0.38823529411764707); height: 100%;}
+        .left-pannel { margin: 80px 0px; color: #fff;}
+        .left-pannel p { font-size: 14px;}
+        .right-side { margin: 40px 0px;  }
+        .login-area { max-width: 700px; margin: auto; position: absolute; transform: translate(-50%,-50%); left: 50%; top: 50%; width: 100%; }
+        .form-details { font-weight: 500;}
+        .form-details input.form-control { min-height: 50px; padding: 20px;}
+        .btn-google { background: #da573b; border:solid 1px #be5238; color: #fff; }
+        .btn-google:hover { background: #be5238; border:solid 1px #9b4631; color: #fff;}
+        .btn-linkedin { background: #1daee3; border:solid 1px #3997ba; color: #fff;}
+        .btn-linkedin:hover { background: #0e76a8; border:solid 1px #347b95; color: #fff; }
+        .btn-instagram { background: #1daee3; border:solid 1px #3997ba; color: #fff;}
+        .btn-instagram:hover { background:#e4717a ; border:solid 1px #347b95; color: #fff; }
+        .btn-facebook { background: #4c699e; border:solid 1px #47618d; color: #fff;}
+        .btn-facebook:hover { background: #3b5998; border:solid 1px #3c5173; color: #fff;}
+        .btn{
+                color: #3b5998;
+        }
+        @media(max-width:767px){
+            body { background-position: top;     
+                  background-size: auto; }
+            .bg:before { height: 100%; bottom: 0px;}
+            .login-area { max-width: 450px; }
+            .left-pannel { margin: 30px 0px;}
+            .left-pannel button { float: left;  width: 30%; margin: 0 1.5%; margin-top: 0px !important; margin-bottom: 30px;}
+            .left-pannel button span { display: none;}
+        }
+
+.main{
+        height:1700px;
+}
+
+
+.btn {
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 2px);
+  -webkit-transform: translate(0px, 2px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  box-shadow: 3px 5px 5px #888888;
+  transition: all 1s ease;
+  transform: scale(1);
+}
+
+.blue:hover {
+  background-color: #3b5998;
+  transform: scale(1.1) perspective(1px)
+}
+
+.red{
+  box-shadow: 3px 5px 5px #888888;
+  transition: all 1s ease;
+  transform: scale(1);
+}
+
+.red:hover {
+  background-color: #be5238;
+  transform: scale(1.1) perspective(1px)
+}
+
+.light{
+  box-shadow: 3px 5px 5px #888888;
+  transition: all 1s ease;
+  transform: scale(1);
+}
+
+.light:hover {
+  background-color: #0e76a8;
+  transform: scale(1.1) perspective(1px)
+}
+
+.slides{
+        margin-left:20px;
+}
+
+
+.logo{
+        height:50px;
+        width:150px;
+        margin-left:30px;
+        margin-top:10px;
+}
